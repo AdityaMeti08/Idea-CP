@@ -17,7 +17,7 @@ def index():
     return render_template('signup.html')
 @app.route('/dashboard')
 def dash():
-    return render_template('index.html')
+    return render_template('index3.html')
 
 
 
